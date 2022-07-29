@@ -1,0 +1,1115 @@
+/* ####### Responsive design for mini desktops 
+starts here ####### */
+@media screen and (min-width: 901px) and (max-width: 1024px) {
+    /**************** starting Home page **************/
+        .container {
+                width: 85%;
+                margin: auto;
+            }
+        /* starting herosection */
+    
+        .hero h1 {
+            width: 75%;
+        }
+    
+        .hero h2 {
+            width: 70%;
+        }
+    
+        .hero h2:hover {
+            color: #e67f2b;
+        }
+    
+        /* ending herosection */
+    
+        /* starting section one */
+        #promo {
+            width: 100%;
+            margin-left: 5%;
+        }
+
+        #promo a {
+            font-size: 1rem;
+            padding: .7rem 1rem;
+        }
+    
+        /* ending section one */
+    
+        /* starting section two */
+    
+        .two .grid {
+            width: 100%;
+            margin-left: 0;
+            grid-gap: 1%;
+        }
+    
+        .grid_one,
+        .grid_two,
+        .grid_three,
+        .grid_four,
+        .grid_five,
+        .grid_six {
+            margin-bottom: 2rem;
+        }
+
+        .two .grid .img{
+            margin-bottom: 5rem;
+        }
+    
+        .two .grid .img img {
+            height: 200px;
+            margin-left: 2rem;
+            margin-bottom: 7%;
+            border-radius: 15px;
+        }
+    
+        .content a:after {
+            right: 28%;
+        }
+    
+        .content a:hover::after {
+            width: 45%;
+            transform: scale(1);
+        }
+    
+        /* ending section two */
+    
+        /* starting footer */
+    
+        .foot_lead h3 {
+            font-size: 1.9rem;
+        }
+    
+        /* ending footer */
+        /**************** ending Home page **************/
+    
+        /**************** starting Services page **************/
+
+        /* starting services section one */
+        .serv_one .grid .col {
+            height: 27rem;
+        }
+    
+        .serv_one .grid .col ul li {
+            text-align: left;
+            line-height: 1.8;
+        }
+    
+        /* ending services section one */
+    
+        /* starting services section two */
+        .serv_two .prod_lead h2 {
+            font-size: 1.6rem;
+            width: 55%;
+        }
+    
+        .serv_two .prod_sec .prod_img img {
+            height: 300px;
+            width: 70%;
+            margin-top: 4rem;
+        }
+    
+        .serv_two .prod_sec .prod_txt {
+            height: 300px;
+        }
+    
+        .serv_two .prod_sec .prod_txt h3 {
+            font-size: 1.3rem;
+        }
+    
+        .serv_two .prod_sec .prod_txt p {
+            font-size: 1rem;
+        }
+    
+        /* ending services section two */
+    
+        /**************** endting Services page **************/
+    
+    
+        /**************** starting about company page **************/
+        /* starting herosection */
+        .comp_hero {
+            height: 80vh;
+        }
+    
+        .comp_head h1 {
+            margin-top: 5rem;
+            font-size: 5rem;
+        }
+    
+        .comp_head img {
+            width: 70%;
+            height: 500px;
+            margin-left: 1%;    
+        }
+    
+        /* ending herosection */
+    
+        /* starting section one */
+        .comp_one {
+            margin-top: 5%;
+        }
+    
+        .comp_one .comp_txt p {
+            font-size: 1rem;
+        }
+        
+        /* ending section one */
+    
+        /**************** ending about company page **************/
+    
+        /**************** starting about CEO page **************/
+    
+        /* starting herosection */
+        .ceo_head h1 {
+            padding-top: 20%;
+        }
+    
+        /* ending herosection */
+    
+        /* starting section one */
+        .ceo_one .ceo_sec .abt_ceo .ceo_info {
+            margin-bottom: 2rem;
+        }
+        
+        /* ending section one */
+    
+    
+        
+        /* ending section two */
+        /**************** ending about CEO page **************/
+    
+        /**************** starting contact page **************/
+    
+        .form textarea {
+            width: 90%;
+        }
+    
+        .form .mini1 {
+            width: 43.25%;
+        }
+    
+        .form .mini2 {
+            width: 43.25%;
+        }
+    
+        .form .maxi {
+            width: 90%;
+        }
+    
+
+    /**************** ending contact page **************/
+}
+
+
+/* ####### Responsive design for mini desktops ends here ####### */
+
+/* ####### Responsive design for tablets  starts here ####### */
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    /**************** starting Home page **************/
+    
+    .container {
+            width: 90%;
+        }
+    
+        h1 {
+            font-size: 3rem;
+        }
+              
+        h2 {
+            font-size: 1rem;
+        }
+    
+        h3 {
+            font-size: 2rem;
+        }
+
+        /* starting header */
+    
+        header nav {
+            height: 13vh;
+            position:relative;
+        }
+    
+        header nav img {
+            padding: .5rem 0 0 1rem;
+        }
+    
+        header nav ul {
+            position: absolute;
+            display: block;
+            padding: 40px 0 40px 0;
+            right: 5rem;
+            width: 50%;
+            margin-top: 5rem;
+            text-align: center;
+            background-color: #fff;
+            transform: translateX(140%);
+        }
+
+        header nav ul.active {
+            transform: translateX(30%);
+            /* width: 100%; */
+        }
+    
+        header nav ul li {
+            padding: 1rem 5rem;
+        }
+        
+        header nav .cont::after {
+            bottom: 1px;
+            right: 35%;
+        }
+    
+        header nav .cont:hover::after {
+            width: 30%;
+        }
+
+        header nav ul li ul.submenu {
+            margin-top: 10%;
+        }
+
+        header nav .submenu li {
+            padding: 0 10px 10px 10px;
+            text-align: center;
+            display: block;
+        }
+
+        header nav ul li:hover ul.submenu {
+            visibility: visible;
+            top: 10%;
+        }
+
+        header #toggle{
+            color: #000;
+            position: absolute;
+            font-size: 2rem;
+            right: 6rem;
+            top: 2rem;
+            display: block;
+        }
+
+        header #toggle i {
+            cursor: pointer;
+        }
+    
+        header .appointment {
+            display: none;
+        }
+        
+        /* ending header */
+    
+        /* starting herosection */
+    
+        .hero h1 {
+            margin-top: 4rem;
+            width: 95%;
+            font-size: 2.8rem;
+    
+        }
+    
+        .hero h2 {
+            width: 100%;
+        }
+    
+        /* ending herosection */
+    
+        /* starting section one */
+    
+        .one h2 {
+            width: 95%;
+        }
+    
+        #promo {
+            margin-left: 3%;
+            padding:30px 20px 0px 0;
+        }
+
+        #promo a {
+            font-size: .7rem;
+            padding: .7rem 1.5rem;
+        }
+    
+        /* ending section one */
+    
+        /* starting section two */
+        .two {
+            margin-bottom: 35rem;
+        }
+    
+        .two h3 {
+            margin-bottom: 10%;
+        }
+    
+        .two .grid {
+            grid-template-columns: 1fr;
+            grid-gap: 4%;
+            margin-bottom: 0;
+            margin-left: 5%;
+        }
+    
+        .grid_one,
+        .grid_two,
+        .grid_three,
+        .grid_four,
+        .grid_five,
+        .grid_six {
+            margin-bottom: 1rem;
+        }
+    
+           .two .grid .img {
+               width: 85%;
+               border-radius: 0;
+               margin-bottom: 5rem;
+           }
+    
+           .two .grid .img img {
+               padding-left: 6rem;
+               height: 250px;
+           }
+
+        .two .grid .img img:hover {
+            box-shadow:none;
+        }
+        .content{
+            text-align: center;
+        }
+        
+    
+        .content a:after {
+            bottom: 2px;
+            right: 33%;
+        }
+    
+        .content a:hover::after {
+            width: 35%;
+        }
+    
+        /* ending section two */
+    
+        /* starting footer */
+    
+        .foot_lead h3 {
+            font-size: 1.1rem;
+        }
+    
+        .foot_lead p {
+            font-size: .8rem;
+        }
+    
+        .foot_links ul a {
+            font-size: .8rem;
+        }
+    
+        .socials {
+            margin-bottom: 8%;
+        }
+    
+    
+        .socials a {
+            font-size: 1.5rem;
+        }
+    
+        .socials a:hover::after {
+            width: 70%;
+        }
+    
+        .note {
+            font-size: .6rem;
+        }
+    
+        /* ending footer */
+        /**************** ending Home page **************/
+    
+        /**************** starting Services page **************/
+    
+        /* starting services herosection  */
+        .service_hero {
+            background-attachment: scroll;
+        }
+    
+        .service_hero h1 {
+            font-size: 3rem;
+            margin-top: 13rem;
+        }
+    
+        /* ending sercices herosection */
+    
+        /* starting services section one */
+        .serv_one .grid {
+            margin-top: 3rem;
+            grid-gap: 25px;
+            margin: 10% 0;
+            margin-left: 15%;
+            grid-template-columns: 1fr;
+        }
+    
+        .serv_one .grid .col {
+            height: max-content;
+            width: 80%;
+        }
+    
+        .serv_one .grid .col .icon {
+            width: 35%;
+            margin-left: 33%;
+        }
+    
+        /* ending services section one */
+    
+        /* starting services section two */
+        .serv_two .prod_lead h2 {
+            font-size: 1.6rem;
+        }
+    
+        .serv_two .prod_sec div {
+            padding-top: 30px;
+        }
+    
+        .serv_two .prod_sec .prod_img img {
+            height: 250px;
+            margin-top: 2.5rem;
+    
+        }
+    
+        .serv_two .prod_sec .prod_txt {
+            height: 300px;
+        }
+    
+        .serv_two .prod_sec .prod_txt h3 {
+            font-size: 1rem;
+        }
+    
+        .serv_two .prod_sec .prod_txt p {
+            font-size: .8rem;
+        }
+    
+        /* ending services section two */
+    
+        /**************** endting Services page **************/
+    
+    
+        /**************** starting about company page **************/
+        /* starting herosection */
+        .comp_hero {
+            background: url('/images/abcom.jpg');
+            height: 80vh;
+            align-content: center;
+        }
+    
+        .comp_head h1 {
+            width: 80%;
+            margin-top: 50%;
+        }
+    
+        .comp_head img {
+            margin-top: 1rem;
+            width: 70%;
+            height: 400px;
+        }
+    
+        /* ending herosection */
+    
+        /**************** ending about company page **************/
+    
+        /**************** starting about CEO page **************/
+    
+        /* starting herosection */
+        .ceo_hero {
+            height: 60vh;
+        }
+    
+        .ceo_head h1 {
+            width: 80%;
+            padding-top: 40%;
+            font-size: 3rem;
+        }
+    
+        /* ending herosection */
+    
+        /* starting section one */
+        .ceo_one .ceo_sec h2 {
+            font-size: 1.6rem;
+        }
+    
+        .ceo_one .ceo_sec .abt_ceo {
+            margin-bottom: 5%;
+        }
+    
+        .ceo_one .ceo_sec .abt_ceo .ceo_img{
+            margin-top: 7%;
+        }
+    
+        .ceo_one .ceo_sec .abt_ceo .ceo_info p {
+            font-size: .8rem;
+        }
+    
+       
+        /* ending section one */
+    
+        /* starting section two */
+    
+    
+        .ceo_two .safety h3 {
+            font-size: 1.5rem;
+        }
+    
+        .ceo_two .safety h3 i {
+            font-size: 40px;
+        }
+    
+
+        .ceo_two .safety ul li {
+            font-size: .9rem;
+        }
+    
+        .ceo_two .faq h4 {
+            font-size: 1.5rem;
+        }
+    
+        .ceo_two .faq p {
+            font-size: .9rem;
+        }
+    
+        .ceo_two .quotes h3 {
+            font-size: 1.5rem;
+        }
+    
+        .ceo_two .quotes blockquote {
+            font-size: .9rem;
+        }
+    
+        /* ending section two */
+        /**************** ending about CEO page **************/
+    
+        /**************** starting contact page **************/
+    
+    
+        .cont_one .lead {
+            font-size: 1.5rem;
+    
+        }
+    
+        .cont_one .contacts {
+            flex-direction: column;
+        }
+    
+        .cont_one .contacts .cont_form {
+            width: 90%;
+        }
+    
+        .form .mini1 {
+            width: 45.5%;
+        }
+    
+        .form .mini2 {
+            width: 45.5%;
+        }
+    
+        .form .maxi {
+            width: 94.3%;
+        }
+    
+}
+
+/* ####### Responsive design for tablets ends here ####### */
+
+/* ####### Responsive design for mobile devices  starts here ####### */
+@media screen and (min-width: 300px) and (max-width: 599px) {
+    /**************** starting Home page **************/
+    
+    .container {
+            width: 95%;
+            margin: auto;
+        }
+        /* starting header */
+        
+        header nav {
+            position: relative;
+            height: 12vh;
+        }
+    
+        header nav img {
+            padding: 0;
+        }
+    
+        header nav ul {
+            display: block;
+            position: absolute;
+            background-color: #fff;
+            right: .1rem;
+            top: 1.5rem;
+            padding: 40px 0 0 0;
+            text-align: center;
+            transform: translateX(140%);
+        }
+
+        header nav ul.active{
+            transform: translateX(0);
+        }
+    
+        header nav ul li {
+            padding: 1rem 3.5rem;
+        }
+    
+        header nav ul li a {
+            color: #e67f2b;
+            text-transform: capitalize;
+            font-weight: 500;
+        }
+    
+        header nav .cont::after {
+            bottom: 5px;
+            right: 30%;
+        }
+    
+        header nav .cont:hover::after {
+            width: 40%;
+        }
+    
+        
+        header #toggle {
+            color: #000;
+            position: absolute;
+            font-size: 1.6rem;
+            right: 3rem;
+            top: 2rem;
+            display: block;
+        }
+
+        header #toggle i{
+            cursor: pointer;
+        }
+        
+        header .appointment {
+            padding: 0;
+            font-size: .5rem;
+            display: none;
+        }
+        /* ending header */
+    
+        /* starting herosection */
+    
+        .hero {
+            background-attachment: scroll;
+        }
+    
+        .hero h1 {
+            margin-top: 4rem;
+            width: 100%;
+            font-size: 2rem;
+    
+        }
+    
+        .hero h2 {
+            font-size: 1.3rem;
+            width: 100%;
+    
+    
+        }
+    
+        /* ending herosection */
+    
+        /* starting section one */
+
+        .one h2 {
+            width: 100%;
+            font-size: 1.2rem;    
+        }
+    
+        .one p {
+            font-size: .8rem;
+        }
+        
+        #promo {
+            width: 100%;
+            margin: 0;
+        }
+
+        #promo a{
+            font-size: .43rem;
+            padding:.3rem .2rem;   
+        }
+
+        /* ending section one */
+    
+        /* starting section two */
+        
+        .two h3 {
+            font-size: 1rem;
+        }
+    
+        .two .grid {
+            grid-template-columns: 1fr;
+            margin-top: 3rem;
+            margin-bottom: 25rem;
+        }
+    
+        .grid_one,
+        .grid_two,
+        .grid_three,
+        .grid_four,
+        .grid_five,
+        .grid_six {
+            padding: 5px;
+        }
+
+        .two .grid .img {
+            margin-bottom: 0;
+        }
+
+        .two .grid .img img {
+            width: 75%;
+            margin-left: 4rem;
+            height: 150px;
+            margin-bottom: 0;
+            border-radius: 15px;
+        }
+    
+        .content span {
+            display: block;
+        }
+        
+        .content a:after {
+            right: 26%;
+        }
+    
+        .content a:hover::after {
+            width: 48%;
+        }
+    
+        /* ending section two */
+    
+        /* starting footer */
+       
+         .foot_links ul a {
+             font-size: .8rem;
+         }
+    
+         .socials {
+             margin-bottom: 8%;
+         }
+    
+    
+         .socials a {
+             font-size: 1.5rem;
+         }
+    
+         .socials a:hover::after {
+             width: 70%;
+         }
+    
+         .note {
+             font-size: .6rem;
+         }
+    
+        footer .foot {
+            flex-direction: column;
+        }
+    
+        .foot_lead {
+            width: 100%;
+        }
+    
+        .foot_lead h3 {
+            font-size: 1.1rem;
+            width: 100%;
+            text-align: center;
+        }
+        
+        .foot_lead p {
+            width: 100%;
+            font-size: .8rem;
+            text-align: center;
+        }
+    
+        .foot_links {
+            width: 100%;
+            padding-left: 1rem;
+        }
+    
+        .foot_links ul li {
+            padding: 5px 0;
+        }
+    
+    
+        .socials {
+            padding-top: 10%;
+            display: flex;
+        }
+    
+    
+        .socials a {
+            display: flex;
+        }
+    
+        .socials a::after {
+            bottom: -11px;
+            right: 51%;
+        }
+    
+        .socials a:hover::after {
+            width: 40%;
+        }
+    
+        .note {
+            font-size: .7rem;
+        }
+    
+        /* ending footer */
+        /**************** ending Home page **************/
+    
+        /**************** starting Services page **************/
+    
+        /* starting services herosection  */
+        .service_hero {
+            background-attachment: scroll;
+            height: 70vh;
+        }
+    
+        .service_hero h1 {
+            font-size: 2rem;
+            margin-top: 6rem;
+        }
+    
+        /* ending sercices herosection */
+    
+        /* starting services section one */
+        .serv_one .grid {
+            grid-gap: 20px;
+            margin: 15% 0;
+            margin-left: 4rem;
+            grid-template-columns: 1fr;
+        }
+    
+        .serv_one .grid .col {
+            height: max-content;
+            width: 80%;
+        }
+    
+        .serv_one .grid .col .icon {
+            margin-left: 30%;
+        }
+        
+        .serv_one .grid .col ul li {
+            text-align: left;
+        }
+    
+        /* ending services section one */
+               
+        /* starting services section two */
+        .serv_two .prod_lead h2 {
+            padding: .5px 0px;
+            font-size: 1.2rem;
+        }
+    
+        .serv_two .prod_sec {
+            flex-direction: column;    
+        }
+    
+        .serv_two .prod_sec div {
+            width: 100%;
+        }
+    
+        .serv_two .prod_sec .prod_img img {
+            height: 240px;
+            width: 65%;
+        }
+    
+        .serv_two .prod_sec .prod_txt {
+            height: 270px;
+            padding-top: 3%;
+        }
+    
+        .serv_two .prod_sec .prod_txt h3 {
+            font-size: 1.2rem;
+        }
+    
+        .serv_two .prod_sec .prod_txt p {
+            width: 100%;
+            font-size: .9rem;
+        }
+    
+        /* ending services section two */
+    
+        /**************** endting Services page **************/
+    
+    
+        /**************** starting about company page **************/
+        /* starting herosection */
+        .comp_hero {
+            height: 60vh;
+        }
+        
+        .comp_head h1 {
+            width: 70%;
+            font-size: 2rem;
+            margin-left: 1rem;
+            margin-top: 50%;
+        }
+    
+        .comp_head img {
+            width: 80%;
+            height: 300px;
+            margin-left: 2%;
+        }
+    
+        /* ending herosection */
+    
+        /* starting section one */
+        .comp_one {
+            margin-top: 5%;
+        }
+    
+        .comp_one .comp_txt {
+            margin-bottom: 5%;
+        }
+    
+        .comp_one .comp_txt p {
+            font-size: .9rem;
+        }
+        
+        /* ending section one */
+    
+        /**************** ending about company page **************/
+    
+        /**************** starting about CEO page **************/
+    
+        /* starting herosection */
+        .ceo_hero {
+            height: 50vh;
+        }
+    
+        .ceo_head h1 {
+            padding-top: 35%;
+            font-size: 2rem;
+        }
+        
+        /* ending herosection */
+    
+        /* starting section one */
+        .ceo_one {
+            height: max-content;
+            margin: 0;
+        }
+    
+        .ceo_one .ceo_sec h2 {
+            font-size: 1.1rem;
+            font-weight: 500;
+            margin-left: 10%;
+            text-transform: capitalize;
+        }
+    
+        .ceo_one .ceo_sec .abt_ceo {
+            flex-basis: 100%;
+            flex-direction: column;
+        }
+    
+        .ceo_one .ceo_sec .abt_ceo .ceo_info {
+            width: 100%;
+        }
+    
+        .ceo_one .ceo_sec .abt_ceo .ceo_info p {
+            font-size: .8rem;
+        }
+    
+        .ceo_one .ceo_sec .abt_ceo .ceo_img {
+            width: 100%;
+            margin-top: 2rem;
+    
+        }
+    
+        .ceo_one .ceo_sec .abt_ceo .ceo_img img {
+            width: 70%;
+            height: 55%;
+            margin-left: 15%;
+        }
+    
+        /* ending section one */
+    
+    
+        /* starting section two */
+
+        .ceo_two .safety h3 {
+            font-size: 1.1rem;
+        }
+    
+        .ceo_two .safety ul {
+            width: 100%;
+            font-size: .8rem;
+        }
+    
+        .ceo_two .faq h4 {
+            font-size: 1.1rem;
+        }
+    
+        .ceo_two .faq p {
+            width: 100%;
+            font-size: .8rem;
+        }
+    
+        .ceo_two .quotes h3 {
+            font-size: 1.1rem;
+        }
+    
+        .ceo_two .quotes blockquote {
+            font-size: .8rem;
+        }
+    
+        /* ending section two */
+        /**************** ending about CEO page **************/
+    
+        /**************** starting contact page **************/
+    
+    
+        .cont_hero {
+            background-attachment: scroll;
+            height: 60vh;
+        }
+    
+        .cont_one .lead {
+            font-size: 1.2rem;
+        }
+    
+        .cont_one .contacts {
+            flex-direction: column;
+        }
+    
+    
+        .form textarea,
+        input {
+            font-size: .8rem;
+        }
+        
+        .form textarea {
+            width: 140%;
+        }
+    
+        .form .mini1 {
+            width: 139%;
+        }
+    
+        .form .mini2 {
+            width: 139%;
+        }
+    
+        .form .maxi {
+            width: 139%;
+        }
+    
+        .cont_one .form .appointment {
+            padding: .4rem 1rem;
+            font-size: .8rem;
+        }
+        
+        .cont_one .contacts .cont_info p {
+            font-size: .8rem;
+        }
+    
+        .cont_one iframe{
+            width: 100%;
+        }
+
+    /**************** ending contact page **************/
+}
+
+/* ####### Responsive design for mobile devices ends here ####### */

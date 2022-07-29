@@ -1,0 +1,822 @@
+/**************** starting Home page **************/
+
+/* starting header */
+header{
+    z-index: 10;
+    position: sticky;
+    top: 0;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+}
+header nav{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    height: 15vh;
+}
+
+header nav img{
+    padding: 0 0 0 30px;
+}
+
+header nav ul{
+    display: flex;
+    padding: 40px 0 0 0;
+}
+
+header nav ul li{
+    padding: 0 20px;
+    font-size: 1rem;
+    justify-content: baseline;
+    color: #e67f2b;
+}
+
+header nav ul li a{
+    color: #e67f2b;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+header nav li{
+    position: relative;
+}
+
+header #toggle{
+    display: none;
+}
+
+header nav .cont::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    bottom: 20px;
+    /* top:60px; */
+    right: 17%;
+    width: 0;
+    transform: scale(0);
+    background-color: #e67f2b;
+    transform-origin: center;
+    transition: .3s ease;
+}
+
+header nav .cont:hover::after{
+    width: 65%;
+    transform: scale(1);
+}
+
+header nav ul li ul.submenu{
+    position: absolute;
+    background-color: #fff;
+    top: 15%;
+    margin-top: 15%;
+    left: 50%;
+    width: 15rem;
+    visibility: hidden;
+    transform: translate(-50%);
+    flex-direction: column;
+    z-index: 5;
+}
+/* 
+header nav ul li ul.submenu:before{
+    display: none;
+} */
+
+header nav ul li:hover ul.submenu{
+    visibility: visible;
+    top: 15%;
+}
+
+header nav .submenu li{
+    padding: 0 10px 10px 10px;  
+    text-align: center;
+    display: block;
+}
+
+.submenu a{
+    color: #000;
+}
+
+header .appointment{
+    padding: 30px 40px 0px 0;
+    font-size: 1.5rem;
+}
+
+.appointment a{
+    padding: .7rem 3.5rem;
+    border: 1px solid;
+    color: #e67f2b;
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.appointment a:hover {
+    background-color: #e67f2b;
+    color: #fff;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+    transition: .4s ease-in-out;
+}
+
+.appointment a b:hover{
+    background-color: #e67f2b;
+    color: #fff;
+}
+
+/* ending header */
+
+/* starting herosection */
+
+.hero{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/sol4.1.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+.hero h1{
+    color: #fff;
+    font-weight: 500;
+    width: 65%;
+    font-size: 3rem;
+    
+}
+
+.hero h2{
+    color: rgba(255, 255, 255, 0.932);
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: 400;
+    width: 60%;
+
+    
+}
+
+.hero h2:hover{
+    color: #e67f2b;
+}
+/* ending herosection */
+
+/* starting section one */
+.one{
+    background-color: rgba(248, 245, 245, 0.836);
+}
+
+.one h2{
+    width: 75%;
+    font-size: 2rem;
+    text-transform: capitalize;
+    line-height: 1.5;
+    font-weight: 500;
+    
+}
+
+.one p{
+    padding: 10px 0;
+    margin-bottom: 5%;
+    line-height: 1.8;
+    text-align: justify;
+    color: rgba(0,0,0,0.8);
+    font-weight: 300;
+}
+
+.one b{
+    text-transform: capitalize;
+    
+}
+
+.one b:hover{
+    color: #e67f2b;
+    text-transform: capitalize;
+}
+
+#promo{
+    margin-left: 10%;
+}
+/* ending section one */
+
+/* starting section two */
+.two{
+    height: max-content;
+    width: 100%;
+}
+
+.two h3{
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.two .grid{
+     width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 10%;
+    grid-gap: 5%;
+    margin-bottom: 5%;
+}
+
+.grid_one,
+.grid_two,
+.grid_three,
+.grid_four,
+.grid_five,
+.grid_six{
+    border-radius: 10px;
+    padding: 10px;
+    height: max-content;
+    position: relative;
+}
+
+.two .grid .img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10%;
+    border-radius: 15px;
+  }
+
+  .two .grid .img img {
+      width: 100%;
+      height: 100%;
+  }
+
+.two .grid .img img:hover{
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    transform: scale(1.1);
+    transition: .5s ease-in-out;
+}
+
+.content{
+    text-align: center;
+}
+
+.content span{
+    display: block;
+    ;
+ }
+
+.content a{
+    color: #e67f2b;
+}
+
+ .content a:after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    bottom: 3px;
+    /* top: 60px; */
+    right: 23%;
+    width: 0;
+    background-color: #e67f2b;
+    transform: scale(0);
+    transform-origin: center;
+    transition: .3s ease;
+ }
+
+ .content a:hover::after{
+    width: 55%;
+    transform: scale(1);
+ }
+/* ending section two */
+
+/* starting footer */
+
+footer{
+    background-color: #000;
+    color: #fff;
+    height: max-content;
+    overflow-x: hidden;
+}
+
+footer .foot{
+    display: flex;
+    flex-basis: 33.3%;
+    align-content: space-between;
+}
+
+.foot_lead{
+    width: 50%;
+}
+
+.foot_lead h3{
+    font-weight: 500;
+    font-size: 2.1rem;
+    width: 80%;
+    padding-top: 5%;
+}
+
+.foot_lead h3 a{
+    color: #e67f2b;
+}
+
+.foot_lead p{
+    width: 85%;
+    font-weight: 300;
+    padding-bottom: 3%;
+}
+
+.foot_links{
+    padding-top: 4%;
+    width: 40%;
+    padding-left: .5rem;
+}
+
+.foot_links ul li{
+    padding: 10px 0;
+    text-transform: capitalize;
+    list-style-type: disc;
+}
+
+.foot_links ul a{
+    color: #fff;
+}
+
+.foot_links ul a:hover {
+    color: #e67f2b;
+}
+
+.socials{
+    padding-top: 4%;
+    margin-bottom: 6%;
+}   
+
+
+.socials a{
+    padding: 3px 15px 3px 15px;
+    font-size: 2rem;
+    width: 100%;
+    color: #fff;
+    position: relative;
+    display: block;
+}
+
+.socials a::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    bottom: 3px;
+    /* top: 60px; */
+    right: 15%;
+    width: 0;
+    background-color: #fff;
+    transform: scale(0);
+    transform-origin: center;
+    transition: .5s ease;
+}
+
+.socials a:hover::after {
+    width: 75%;
+    transform: scale(1);
+}
+
+.note{
+    text-align: center;
+    font-size: .8rem;
+    padding-bottom: 2%;
+    color: rgba(255,255,255,0.7);
+}
+/* ending footer */
+/**************** ending Home page **************/
+
+/**************** starting Services page **************/
+
+/* starting services herosection  */
+.service_hero{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/services.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+.service_hero h1{
+    color: #fff;
+    font-weight: 500;
+    width: 100%;
+    font-size: 5rem;
+    margin: 0;
+    padding: 10% 0 0 0;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+/* ending sercices herosection */
+
+/* starting services section one */
+.serv_one{
+    background-color: rgba(248, 245, 245, 0.836);
+    padding: 1% 0;  
+}
+
+.serv_one .grid{
+    grid-gap: 10px;
+    margin: 10% 0;
+}
+
+.serv_one .grid .col{
+    height: 100%;
+    width: 100%;
+    border: 1px solid #e67f2b;
+    padding: 25px;
+    align-content: center;
+}
+
+.serv_one .grid .col .icon{
+    width: 40%;
+    background-color: #e67f2bef;
+    padding: 2%;
+    margin-left: 26%;
+    border-radius: 15px;
+    margin-bottom: 10%;
+}
+
+.serv_one .grid .col .icon img{
+    width: 100%;
+}
+
+.serv_one .grid .col h4{
+    text-align: center;
+    color: #e67f2b;
+}
+
+.serv_one .grid .col ul li{
+    line-height: 2;
+    list-style-type: disc;
+}
+/* ending services section one */
+
+/* starting services section two */
+.serv_two .prod_lead h2{
+    padding: 1px 0px;
+    margin: 5% 0 0 20%;
+    border: 1px solid;
+    color: #e67f2b;
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-align: center;
+    width: 60%;
+}
+
+.serv_two .prod_lead h2:hover{
+    background-color: #e67f2b;
+    color: #fff;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+    transition: .4s ease-in-out;
+}
+
+.serv_two .prod_sec{
+    display: flex;
+    /* background-color: red; */
+    
+}
+
+.serv_two .prod_sec div{
+    width: 50%;
+    height: max-content;
+    margin-bottom: 5%;
+    padding-top: 50px;
+}
+
+.serv_two .prod_sec .prod_img img{
+    height: 450px;
+    width: 80%;
+    border-radius: 15%;
+    
+}
+
+.serv_two .prod_sec .prod_img img:hover{
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+.serv_two .prod_sec .prod_txt{
+    height: 500px;
+    padding-top: 10%;
+}
+
+.serv_two .prod_sec .prod_txt h3{
+    font-weight: 400;
+    margin-bottom: 4%;
+    color: #e67f2b;
+}
+
+.serv_two .prod_sec .prod_txt p{
+    line-height: 1.9;
+    width: 90%;
+    text-align: justify;
+}
+/* ending services section two */
+
+/**************** endting Services page **************/
+
+
+/**************** starting about company page **************/
+/* starting herosection */
+.comp_hero{
+    background: url('/images/abcom.jpg');
+    height: 100vh;
+    align-content: center;
+}
+
+.comp_hero .container {
+    padding:5% 0 0 20%;
+}
+
+.comp_head h1{
+    width: 70%;
+    text-align: center;
+    font-size: 3rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-bottom: 5%;
+}
+
+.comp_head img{
+    width: 60%;
+    height: 600px; 
+    z-index: 10;
+    margin-left: 5%;
+    
+}
+
+/* ending herosection */
+
+/* starting section one */
+.comp_one {
+    margin-top: 10%;
+}
+
+.comp_one .comp_txt{
+    margin-bottom: 10%;
+}
+
+.comp_one .comp_txt p{
+    line-height: 2;
+    text-align: justify;
+}
+
+.comp_one .comp_txt b:hover{
+    color: #e67f2b;
+    transition: .3s ease;
+}
+/* ending section one */
+
+/**************** ending about company page **************/
+
+/**************** starting about CEO page **************/
+
+/* starting herosection */
+.ceo_hero {
+    background: url('/images/abcom.jpg');
+    height: 80vh;
+}
+
+.ceo_head h1 {
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 15%;
+    text-align: center;
+    font-size: 4rem;
+    text-transform: capitalize;
+    font-weight: 500;;
+    margin-bottom: 5%;
+        margin-top: 0;
+}
+
+.ceo_head h1:hover{
+    color: #e67f2b;
+}
+
+.ceo_head b{
+    text-transform: uppercase;
+}
+
+.ceo_sec h2 b{
+    color: #e67f2b;
+    text-transform: uppercase;
+}
+/* ending herosection */
+
+/* starting section one */
+.ceo_one{
+    height: max-content;
+    margin: 0;
+}
+
+.ceo_one .ceo_sec h2{
+    text-align: center;
+    margin-bottom: 5%;
+    width: 80%;
+    font-weight: 500;
+    margin-left: 10%;
+    text-transform: capitalize;
+}
+
+.ceo_one .ceo_sec .abt_ceo{
+    display: flex;
+    flex-basis: 50%;
+    height: max-content;
+}
+
+.ceo_one .ceo_sec .abt_ceo .ceo_info{
+    width: 50%;
+}
+
+.ceo_one .ceo_sec .abt_ceo .ceo_info p {
+    text-align: justify;
+    width: 100%;
+    line-height: 2;
+    margin-top: 10%;
+}
+
+.ceo_one .ceo_sec .abt_ceo .ceo_img {
+    width: 50%;
+    
+}
+
+.ceo_one .ceo_sec .abt_ceo .ceo_img img{
+    width: 65%;    
+    border-radius: 0 30px 0 30px;
+    height: 85%;
+    margin-top: 3rem;
+    margin-left: 10%;
+}
+/* ending section one */
+
+
+/* starting section one */
+.ceo_one{
+    background-color: rgba(248, 245, 245, 0.836);
+}
+
+/* ending section one */
+
+/* starting section two */
+.ceo_two .safety{
+    padding-bottom: 3%;
+}
+
+
+.ceo_two .safety h3{
+    font-weight: 500;
+}
+
+.ceo_two .safety h3 i{
+    color: #e67f2b;
+    font-size: 50px;
+}
+
+.ceo_two .safety ul {
+    list-style-type: disc;
+    line-height: 2;
+    padding-left: 5%;
+    width: 50%;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.ceo_two .faq h4{
+    font-weight: 500;
+    font-size: 2.5rem;
+    margin: 4% 0 0 0;
+}
+
+.ceo_two .faq p{
+    color: rgba(0, 0, 0, 0.8);
+    width: 50%;
+    text-align: justify;
+}
+
+.ceo_two .quotes h3{
+    margin: 4% 0 0 0;
+    font-weight: 500;
+        font-size: 2.5rem;
+}
+
+.ceo_two .quotes blockquote{
+    padding: 30px 50px 30px 30px;
+    background: #f9f9ff;
+    border-left: 2px solid #ff5e13;
+    text-align: justify;
+    line-height: 2;
+}
+/* ending section two */
+/**************** ending about CEO page **************/
+
+/**************** starting contact page **************/
+
+.cont_hero{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/contact.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+.cont_one .lead{
+    color: #e67f2b;
+    font-weight: 400;
+    font-size: 1.8rem;
+    margin: 0;
+
+}
+
+.cont_one .contacts{
+    display: flex;
+}
+
+.cont_one .contacts .cont_form{
+    width: 70%;
+}
+
+.form textarea,input {
+    border: 1px solid #e5e6e9;
+    font-size: 1rem;
+    padding: 1rem;
+    background: transparent;
+}
+
+.form::placeholder {
+    font-weight: 300;
+    color: #999999;
+}
+
+.form textarea {
+    border-radius: 0px;
+    margin: .5rem;
+}
+
+.form input{
+    height: 40px;
+}
+
+.form .mini1{
+    width: 44.5%;
+    margin: .5rem;
+}
+
+.form .mini2 {
+    width: 44.5%;
+    margin: .5rem;
+}
+
+.form .maxi {
+    width: 91.5%;
+    margin: .5rem;
+}
+
+.cont_one .form .appointment {
+    padding: .7rem 3.5rem;
+    margin: 2rem .5rem;
+    border: 1px solid;
+    color: #e67f2b;
+    font-size: 1rem;
+    background-color: #fff;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.cont_one .form .appointment:hover {
+    background-color: #e67f2b;
+    color: #fff;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+    transition: .4s ease-in-out;
+}
+
+.cont_one .contacts .cont_info{
+    margin-top: 2rem;
+}
+
+.cont_one .contacts .cont_info .info{
+    display: flex;
+    justify-content: start;
+}
+
+.cont_one .contacts .cont_info .icon{
+    margin-right: 1rem;
+}
+
+.cont_one .contacts .cont_info h3{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.9);
+    margin: 0;
+}
+
+.cont_one .contacts .cont_info p{
+    font-size: .9rem;
+    color: rgba(0,0,0,0.5);
+    /* font-weight: 500; */
+    margin: 0;
+    padding-bottom: 3rem;
+}
+
+.cont_one .contacts .cont_info i{
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.3);
+    display: inline;
+}
+
+/**************** ending contact page **************/

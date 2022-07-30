@@ -232,24 +232,24 @@ starts here ####### */
         }
     
         header nav img {
-            padding: .5rem 0 0 1rem;
+            padding: .7rem 0 0 1rem;
         }
     
         header nav ul {
             position: absolute;
             display: block;
             padding: 40px 0 40px 0;
-            right: 5rem;
+            right: .1rem;
             width: 50%;
             margin-top: 5rem;
+            z-index: 20;
             text-align: center;
             background-color: #fff;
-            transform: translateX(140%);
+            transform: translateY(-140%);
         }
 
         header nav ul.active {
-            transform: translateX(30%);
-            /* width: 100%; */
+            transform: translateY(5%);
         }
     
         header nav ul li {
@@ -283,9 +283,9 @@ starts here ####### */
         header #toggle{
             color: #000;
             position: absolute;
-            font-size: 2rem;
-            right: 6rem;
-            top: 2rem;
+            font-size: 2.3rem;
+            right: 4rem;
+            top: 2.2rem;
             display: block;
         }
 
@@ -616,10 +616,7 @@ starts here ####### */
 /* ####### Responsive design for mobile devices  starts here ####### */
 @media screen and (min-width: 300px) and (max-width: 599px) {
     /**************** starting Home page **************/
-     body{
-            overflow: hidden;
-        }
-    
+
     .container {
             width: 95%;
             margin: auto;
@@ -643,11 +640,11 @@ starts here ####### */
             top: 1.5rem;
             padding: 40px 0 0 0;
             text-align: center;
-            transform: translateX(140%);
+            transform: translateY(-140%);
         }
 
         header nav ul.active{
-            transform: translateX(0);
+            transform: translateY(0);
         }
     
         header nav ul li {

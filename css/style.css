@@ -137,7 +137,7 @@ header .appointment{
 .hero h1{
     color: #fff;
     font-weight: 500;
-    width: 65%;
+    width: 63%;
     font-size: 3rem;
     
 }
@@ -180,9 +180,12 @@ header .appointment{
     font-weight: 300;
 }
 
+.one p a{
+    color: rgba(0, 0, 0, 0.8);
+}
+
 .one b{
     text-transform: capitalize;
-    
 }
 
 .one b:hover{
@@ -423,22 +426,18 @@ footer .foot{
     align-content: center;
 }
 
-.serv_one .grid .col .icon{
-    width: 40%;
-    background-color: #e67f2bef;
+.serv_one .grid .col .icon i{
+    /* width: 40%; */
+    color: #e67f2b;
+    font-size: 4rem;
     padding: 2%;
-    margin-left: 26%;
+    margin-left: 28%;
     border-radius: 15px;
-    margin-bottom: 10%;
-}
-
-.serv_one .grid .col .icon img{
-    width: 100%;
 }
 
 .serv_one .grid .col h4{
     text-align: center;
-    color: #e67f2b;
+    color: #e67f2bf1;
 }
 
 .serv_one .grid .col ul li{
@@ -483,7 +482,7 @@ footer .foot{
     height: 450px;
     width: 80%;
     border-radius: 15%;
-    
+    margin-top: 3rem;
 }
 
 .serv_two .prod_sec .prod_img img:hover{
@@ -492,7 +491,7 @@ footer .foot{
 }
 
 .serv_two .prod_sec .prod_txt{
-    height: 500px;
+    height: max-content;
     padding-top: 10%;
 }
 
@@ -506,6 +505,16 @@ footer .foot{
     line-height: 1.9;
     width: 90%;
     text-align: justify;
+}
+
+.serv_two .prod_sec .prod_txt p a{
+    color: #000;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.serv_two .prod_sec .prod_txt p a:hover {
+    color:#e67f2b;
 }
 /* ending services section two */
 
@@ -676,6 +685,31 @@ footer .foot{
     color: rgba(0, 0, 0, 0.8);
 }
 
+.ceo_two .faq .grid{
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    margin-bottom: 1rem;
+}
+
+.ceo_two .faq .grid .col{
+    width: 100%;
+    background-color: #f9f9ff;
+    padding: 1rem;
+    border-radius: 0 15px;
+}
+
+.ceo_two .faq .grid .col h5{
+    color:#e67f2b ;
+    font-size: 1rem;
+}
+
+.ceo_two .faq .grid .col p{
+    width: 100%;
+    color: #000;
+    line-height: 1.7;
+    text-align: justify;
+}
+
 .ceo_two .faq h4{
     font-weight: 500;
     font-size: 2.5rem;
@@ -700,6 +734,15 @@ footer .foot{
     border-left: 2px solid #ff5e13;
     text-align: justify;
     line-height: 2;
+    margin: .5rem 0;
+}
+
+.ceo_two .quotes small{
+    padding: .7rem 3.5rem;
+    color: #e67f2b;
+    font-size: .9rem;
+    text-transform: capitalize;
+    font-weight: 500;
 }
 /* ending section two */
 /**************** ending about CEO page **************/
@@ -817,6 +860,10 @@ footer .foot{
     font-size: 2rem;
     color: rgba(0, 0, 0, 0.3);
     display: inline;
+}
+
+.map iframe{
+    width: 100%;
 }
 
 /**************** ending contact page **************/

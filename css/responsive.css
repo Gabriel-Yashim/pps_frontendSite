@@ -246,6 +246,7 @@ starts here ####### */
             text-align: center;
             background-color: #fff;
             transform: translateY(-140%);
+            transition: .3s ease-out;
         }
 
         header nav ul.active {
@@ -650,6 +651,7 @@ starts here ####### */
             padding: 40px 0 0 0;
             text-align: center;
             transform: translateY(-140%);
+            transition: .3s ease-out;
         }
 
         header nav ul.active{
@@ -891,7 +893,7 @@ starts here ####### */
         }
     
         .serv_one .grid .col {
-            height: 23rem;
+            height: max-content;
             width: 90%;
         }
     
@@ -1058,6 +1060,10 @@ starts here ####### */
         .ceo_two .faq p {
             width: 100%;
             font-size: .8rem;
+        }
+
+        .ceo_two .faq .grid .col p{
+            text-align: left;
         }
     
         .ceo_two .quotes h3 {

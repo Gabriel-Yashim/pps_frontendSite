@@ -25,7 +25,7 @@ starts here ####### */
         /* starting section one */
         #promo {
             width: 100%;
-            margin-left: 5%;
+            /* margin-left: 5%; */
         }
 
         #promo a {
@@ -288,6 +288,7 @@ starts here ####### */
             right: 4rem;
             top: 2.2rem;
             display: block;
+            transition: .5s ease-out;
         }
 
         header #toggle i {
@@ -322,7 +323,7 @@ starts here ####### */
         }
     
         #promo {
-            margin-left: 3%;
+            /* margin-left: 3%; */
             padding:30px 20px 0px 0;
         }
 
@@ -379,11 +380,11 @@ starts here ####### */
     
         .content a:after {
             bottom: 2px;
-            right: 33%;
+            right: 37%;
         }
     
         .content a:hover::after {
-            width: 35%;
+            width: 25%;
         }
     
         /* ending section two */
@@ -685,6 +686,7 @@ starts here ####### */
             right: 3rem;
             top: 2rem;
             display: block;
+            transition: .5s ease-out;
         }
 
         header #toggle i{
@@ -733,7 +735,6 @@ starts here ####### */
         
         #promo {
             width: 100%;
-            margin: 0;
         }
 
         #promo a{

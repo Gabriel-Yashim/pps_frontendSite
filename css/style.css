@@ -194,7 +194,8 @@ header .appointment{
 }
 
 #promo{
-    margin-left: 10%;
+    /* margin-left: 10%; */
+    text-align: center;
 }
 /* ending section one */
 
@@ -256,7 +257,6 @@ header .appointment{
 
 .content span{
     display: block;
-    ;
  }
 
 .content a{
